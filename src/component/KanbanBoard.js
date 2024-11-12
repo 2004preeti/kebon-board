@@ -72,7 +72,7 @@ const KanbanBoard = () => {
       default:
         return (
           <img
-            src={basePath + 'NoPriority.svg'}
+            src={basePath + 'Nopriority.svg'}
             alt="No Priority"
             className="priority-icon"
           />

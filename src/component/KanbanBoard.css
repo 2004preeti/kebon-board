@@ -37,7 +37,7 @@
 }
 
 .column-header {
-  font-size: 1.2em;
+  font-size: 0.9em;
   color: #333;
   background-color: #f0f0f0;
   padding: 10px;
@@ -52,7 +52,7 @@
 .card-user-info {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 3px;
 }
 
 .user-image {
@@ -91,13 +91,14 @@
 .group-name {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
   font-weight: bold;
 }
 
 .ticket-count {
   font-size: 0.9em;
   color: #555;
+  margin-left: 13px;
 }
 
 /* Column Header Icons */
@@ -150,7 +151,7 @@
 }
 
 .ticket-id {
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #555;
   margin-left: auto;
 }
@@ -181,7 +182,7 @@
 }
 
 .ticket-tags {
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #555;
 }
 

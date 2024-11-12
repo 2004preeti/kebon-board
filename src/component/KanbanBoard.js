@@ -38,7 +38,7 @@ const KanbanBoard = () => {
       case 4:
         return (
           <img
-            src="/icons_FEtask/UrgentPrioritygrey.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/UrgentPrioritygrey.svg"
             alt="Urgent"
             className="priority-icon"
           />
@@ -46,7 +46,7 @@ const KanbanBoard = () => {
       case 3:
         return (
           <img
-            src="/icons_FEtask/UrgentPrioritycolour.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/UrgentPrioritycolour.svg"
             alt="High"
             className="priority-icon"
           />
@@ -54,7 +54,7 @@ const KanbanBoard = () => {
       case 2:
         return (
           <img
-            src="/icons_FEtask/ImgMediumPriority.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/ImgMediumPriority.svg"
             alt="Medium"
             className="priority-icon"
           />
@@ -62,7 +62,7 @@ const KanbanBoard = () => {
       case 1:
         return (
           <img
-            src="/icons_FEtask/ImgLowPriority.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/ImgLowPriority.svg"
             alt="Low"
             className="priority-icon"
           />
@@ -70,7 +70,7 @@ const KanbanBoard = () => {
       default:
         return (
           <img
-            src="/icons_FEtask/NoPriority.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/NoPriority.svg"
             alt="No Priority"
             className="priority-icon"
           />
@@ -98,7 +98,7 @@ const KanbanBoard = () => {
       case 'Todo':
         return (
           <img
-            src="/icons_FEtask/Todo.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/Todo.svg"
             alt="To-do"
             className="status-icon"
           />
@@ -106,7 +106,7 @@ const KanbanBoard = () => {
       case 'In progress':
         return (
           <img
-            src="/icons_FEtask/InProgress.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/InProgress.svg"
             alt="In-progress"
             className="status-icon"
           />
@@ -114,7 +114,7 @@ const KanbanBoard = () => {
       case 'Backlog':
         return (
           <img
-            src="/icons_FEtask/Backlog.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/Backlog.svg"
             alt="Backlog"
             className="status-icon"
           />
@@ -122,7 +122,7 @@ const KanbanBoard = () => {
       default:
         return (
           <img
-            src="/icons_FEtask/NoStatus.svg"
+            src="https://2004preeti.github.io/kebon-board/icons_FEtask/NoStatus.svg"
             alt="No Status"
             className="status-icon"
           />
@@ -201,11 +201,17 @@ const KanbanBoard = () => {
                       </>
                     )}
                   </span>
-                  <span className="ticket-count">({ticketCount})</span>
+                  <span className="ticket-count">{ticketCount}</span>
                 </div>
                 <div className="column-header-icons">
-                  <img src="/icons_FEtask/add.svg" alt="Add" />
-                  <img src="/icons_FEtask/3dotmenu.svg" alt="Menu" />
+                  <img
+                    src="https://2004preeti.github.io/kebon-board/icons_FEtask/add.svg"
+                    alt="Add"
+                  />
+                  <img
+                    src="https://2004preeti.github.io/kebon-board/icons_FEtask/3dotmenu.svg"
+                    alt="Menu"
+                  />
                 </div>
               </div>
               <div className="card-container">

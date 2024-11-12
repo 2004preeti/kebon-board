@@ -1,0 +1,221 @@
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.header select {
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+/* Kanban Board Styling */
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+/* Kanban Column Styling */
+.kanban-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column-header {
+  font-size: 1.2em;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-initials {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 50%;
+}
+
+.custom-color {
+  background-color: #ffcc00; /* Change this to desired color */
+}
+
+.group-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.ticket-count {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Column Header Icons */
+.column-header-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.column-header-icons img {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.column-header-icons img:hover {
+  opacity: 1;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Kanban Card Styling */
+.kanban-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-user-info {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.ticket-id {
+  font-size: 0.9em;
+  color: #555;
+  margin-left: auto;
+}
+
+/* Status and Title Row */
+.status-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.status-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Priority and Tag Row */
+.priority-tag-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.priority-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.ticket-tags {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Ticket Title Styling */
+.ticket-title {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Priority Icon Styling */
+.priority-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Status and Title Row */
+.status-title-row {
+  display: flex;
+  align-items: flex-start; /* Align icon at the start of the text */
+  gap: 8px;
+}
+
+.status-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.ticket-title {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.2;
+  word-break: break-word; /* Ensure long words wrap within container */
+  flex: 1; /* Allow title to take up remaining space */
+}

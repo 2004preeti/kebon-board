@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kebon-board/static/css/main.7953a452.css",
-    "main.js": "/kebon-board/static/js/main.7a4311d2.js",
+    "main.css": "/kebon-board/static/css/main.59b147df.css",
+    "main.js": "/kebon-board/static/js/main.ae2df329.js",
     "static/js/453.f0f88b0d.chunk.js": "/kebon-board/static/js/453.f0f88b0d.chunk.js",
     "index.html": "/kebon-board/index.html",
-    "main.7953a452.css.map": "/kebon-board/static/css/main.7953a452.css.map",
-    "main.7a4311d2.js.map": "/kebon-board/static/js/main.7a4311d2.js.map",
+    "main.59b147df.css.map": "/kebon-board/static/css/main.59b147df.css.map",
+    "main.ae2df329.js.map": "/kebon-board/static/js/main.ae2df329.js.map",
     "453.f0f88b0d.chunk.js.map": "/kebon-board/static/js/453.f0f88b0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7953a452.css",
-    "static/js/main.7a4311d2.js"
+    "static/css/main.59b147df.css",
+    "static/js/main.ae2df329.js"
   ]
 }
